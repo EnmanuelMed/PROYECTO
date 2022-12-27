@@ -53,4 +53,4 @@ gaitober" => "gato"
 ---
 
 ### Autor:
-- Manuel de Jesus Tovar <br>
+- Enmanuel Jose Medina Navas <br>
