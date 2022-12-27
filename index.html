@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Estilos.css" type="text/css">
+  <title>Encriptador de texto</title>
+</head>
+<body>
+  <main>
+    <div class="main-left">
+      </div>
+      <div class="input-container">
+      <textarea id="input" spellcheck="false" placeholder="Ingrese el texto aquí" autofocus></textarea>
+      <div class="message" id="message">
+        <span>!</span><p >Solo letras, en minúsculas y sin acentos</p>
+      </div>
+      <div class="buttons">
+        <button class="btn primary" id="btn-encrypt">Encriptar</button>
+        <button class="btn secondary" id="btn-decrypt">Desencriptar</button>
+      </div>
+      </div>
+    </div>
+    <div class="main-right">
+      <div class="screen-container hidden">
+        <div id="screen"></div>
+        <button id="copy" class="btn secondary copy">Copiar</button>
+      </div>
+      <div class="center">
+      <div class="empty-text">
+          <h3>Ningún mensaje fue encontrado</h3>
+          <p>Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+      </div>
+    </div>
+    <!-- <input type="text" id="input"><span id="message"></span>
+    <div id="screen">Solo letras minúsculas y sin acentos</div>
+    <button type="button" id="btn-encrypt">Encriptar</button>
+    <button type="button" id="btn-decrypt">Descencriptar</button>
+    <button type="button" id="copy">Copiar</button> -->
+  </main>
+  <footer>
+    <div class="footer-container">
+      <footer>
+   <div class="footer-container">
+      <div class="footer-center">
+        <p>&copy;Copyright Enmanuel Jose Medina Navas | Desafio Alura latam - Oracle Next Education</p>
+    </footer>
+      </div>
+    </div>
+  </footer>
+  <script src="Java.js"></script>
+ 
+</body>
+</html>
