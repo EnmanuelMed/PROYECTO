@@ -135,7 +135,7 @@ main {
 .secondary {
   border: 1px solid var(--dark-blue-300);
   background-color: #00ff43;
-  color: #2b2d2e;;
+  color: #2b2d2e;
 }
 
 .screen-container {
